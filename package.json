@@ -1,31 +1,31 @@
 {
-    "name": "ico",
-    "version": "1.0.0",
-    "description": "Initial Coin Offering",
-    "author": "Ismum Hossain",
-    "license": "MIT",
-    "files": [
-      "src/**/*.sol"
-    ],
-    "devDependencies": {
-      "prettier": "^2.7.1",
-      "prettier-plugin-solidity": "^1.0.0-beta.19"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ihossain-6/ico.git"
-    },
-    "scripts": {
-      "setup": "make clean && make build",
-      "sync": "make update",
-      "test": "make test",
-      "snapshot": "make snapshot",
-      "format": "make format",
-      "lint": "make lint",
-      "all": "make all"
-    },
-    "dependencies": {
-      "solhint": "^3.3.8"
-    }
+  "name": "ico",
+  "version": "1.0.0",
+  "description": "Initial Coin Offering",
+  "author": "Ismum Hossain",
+  "license": "MIT",
+  "files": [
+    "src/**/*.sol"
+  ],
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihossain-6/ico.git"
+  },
+  "scripts": {
+    "setup": "make clean && make build",
+    "sync": "make update",
+    "test": "make test",
+    "snapshot": "make snapshot",
+    "format": "make format",
+    "lint": "make lint",
+    "all": "make all"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "solhint": "^3.3.8"
   }
-  
+}
